@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>COA</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">PBL</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>COMPUTER ORGANIZATION AND ARCHITECTURE</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>COMPUTER ORGANIZATION AND ARCHITECTURE</h3>
+            <p class="fst-italic">
+              Computer organization and architecture focus on the structure,
+              design, and functionality of computer systems. Computer
+              organization deals with how components like the CPU, memory, and
+              input/output devices are organized and interconnected to form a
+              functional computer system. It involves studying topics such as
+              instruction set architecture, data representation, and memory
+              hierarchy. On the other hand, computer architecture is concerned
+              with the design principles and performance characteristics of
+              computer systems. It includes designing instruction sets,
+              optimizing performance, and evaluating trade-offs between
+              different hardware components. Together, computer organization and
+              architecture provide the foundation for understanding how
+              computers work at both the hardware and software levels, enabling
+              efficient and effective system design and development.
+            </p>
+            <h3>Major Features of Computer Organization and Architecture</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Instruction Set
+                Architecture (ISA).
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Memory Hierarchy.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Processor Design.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Input/Output Systems.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Parallelism and
+                Concurrency.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> System Interconnection.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Performance Evaluation.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> SSecurity and
+                Protection.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>
+          Understand the basic organization of computers, different instruction
+          formats and addressing modes. [L2]
+        </li>
+        <li>Comprehend the 8086 microprocessors [L2]</li>
+        <li>
+          Interpret the types of memory, CPU-memory connection, and
+          microprogrammed control unit [L2]
+        </li>
+        <li>
+          Compare various CPU- I/O data transfer modes, and asynchronous data
+          transfer techniques [L2]
+        </li>
+        <li>
+          Describe parallel processing, Flynn’s classification and
+          multiprocessor architectures [L2]
+        </li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Instruction: Instruction Definition, instruction cycle, flow chart for
+        instruction cycle, instruction storage, types of instruction formats
+        (Zero, one, two and three address). Addressing modes: mode field,
+        implied, immediate register, register direct, register indirect, auto
+        increment, decrement, indexed, relative, base address mode, Numerical
+        examples and problems.
+
+        <h3>UNIT-II</h3>
+        CPU-Organization: 8086 –CPU –Block diagram and pin diagram, minimum and
+        maximum mode, General purpose registers; segment register and generation
+        of 20 bits address, segmentation of main memory, systems bus, Types of
+        flags.
+
+        <h3>UNIT-III</h3>
+        Memory Hierarchy, Main memory, memory address map, memory connection to
+        CPU; Auxiliary memory, Magnetic disks, Magnetic tapes; cache memory, hit
+        and miss ratio, direct, associative and set associative mapping;
+        Micro-programmed control: control memory, address sequencing.
+
+        <h3>UNIT-IV</h3>
+        I/O interface: I/O Bus and Interface modules, I/O versus Memory Bus,
+        isolated vs Memory-mapped I/O. Asynchronous data transfer-strobe
+        control, Hand shaking; Modes of Transfer: Example of programmed I/O,
+        interrupt-initiated I/O. Daisy-Chaining priority. DMA: DMA Controller,
+        DMA Transfer, Intel 8089 IOP.
+
+        <h3>UNIT-V</h3>
+        Pipeline and Vector Processing: Parallel Processing, Pipelining,
+        Arithmetic Pipeline, Instruction Pipeline, RISC Pipeline, Vector
+        Processing, Array Processor. Multi Processors: Characteristics of
+        Multiprocessor; Interconnection structures: Time Shared common bus,
+        multiport memory, crossbar switch, multi-stage switching network;
+        Introduction to Flynn’s classification: SISD, SIMD, MISD, MIMD
+        (Introduction).
+
+        <h3>Text Books</h3>
+
+        <h3>Suggested / Reference Books</h3>
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

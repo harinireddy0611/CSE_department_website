@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>OS/CN LAB</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>OPERATING SYSTEMS/COMPUTER NETWORKS LAB</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>OPERATING SYSTEMS/COMPUTER NETWORKS LAB</h3>
+            <p class="fst-italic">
+              Operating Systems and Computer Networks Lab is a practical
+              environment where students apply theoretical concepts learned in
+              lectures to real-world scenarios. In this lab, students get
+              hands-on experience with operating systems and computer networks
+              by working on tasks such as system administration, network
+              configuration, troubleshooting, and performance optimization. They
+              learn to install, configure, and manage operating systems, set up
+              network infrastructures, diagnose network issues, and implement
+              security measures. Through practical exercises, simulations, and
+              experiments, students develop practical skills and gain insights
+              into the functioning and interaction of operating systems and
+              computer networks, preparing them for careers in IT and related
+              fields.
+            </p>
+            <h3>
+              Major Features of Computer Networks and Operating Systems Lab
+            </h3>
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i> Connectivity.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Resource Sharing.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Scalability.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Reliability.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Security.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Speed.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Interoperability.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>Centralized Management.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OBJECTIVES</h1>
+      <ul style="list-style-type: square">
+        <li>Understand data link layer framing methods.</li>
+        <li>Know about the various error detection methods.</li>
+        <li>Explore the knowledge of various routing algorithms.</li>
+        <li>Understand Traffic Analysis and Statistics in network.</li>
+      </ul>
+    </div>
+
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Implement data link layer farming methods</li>
+        <li>Analyze error detection method</li>
+        <li>Analyze routing and congestion issues in network</li>
+        <li>Apply Traffic Analysis and Statistics in network</li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        Programs: <br />
+        1. Implement the data link layer framing method Bit stuffing.<br />
+        2. Implement the data link layer framing method Character Stuffing.<br />
+        3. Write a program to compute CRC 16.<br />
+        4. Implement Dijkstra„s algorithm to compute the Shortest path thru a
+        graph<br />
+        5. Installation of Wireshark<br />
+        6. Simulate Packet Capture Using Wire shark<br />
+        7. Implement Viewing Captured Traffic Using Wire shark<br />
+        8. Simulate Statistics & Filters Using Wire shark
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

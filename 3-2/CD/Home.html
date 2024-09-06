@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>COMPILER DESIGN</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>COMPILER DESIGN</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>COMPILER DESIGN</h3>
+            <p class="fst-italic">
+              Compiler design is a crucial aspect of computer science that
+              focuses on creating software tools called compilers. These
+              compilers translate high-level programming languages like C, Java,
+              or Python into machine-readable code understood by computers.
+              Compiler design involves several stages, including lexical
+              analysis, syntax analysis, semantic analysis, optimization, and
+              code generation. Each stage plays a vital role in ensuring the
+              correctness, efficiency, and performance of the compiled code. By
+              understanding compiler design principles, programmers can develop
+              efficient and reliable compilers, enabling the development of
+              complex software systems and applications.
+            </p>
+            <h3>Major Features of Compiler Design</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Lexical Analysis.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Syntax Analysis.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Semantic Analysis.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Intermediate Code
+                Generation Development.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Optimization.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Code Generation.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Error Handling.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Symbol Table
+                Management.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OBJECTIVES</h1>
+      <ul style="list-style-type: square">
+        <li>Describe the fundamental principles in compiler design.</li>
+        <li>Discuss CFG‟s and parsing techniques</li>
+        <li>Predict the performance of different parsers.</li>
+        <li>
+          Summarize the role of runtime environments and memory organization for
+          implementation of typical programming languages.
+        </li>
+        <li>
+          Predict various techniques for code optimization and code generation.
+        </li>
+      </ul>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>
+          Analyze the phases of a typical compiler, including the front- and
+          backend.(L3)
+        </li>
+        <li>
+          Apply the role of a parser in a compiler and relate the yield of a
+          parse tree to a grammar derivation.(L3)
+        </li>
+        <li>
+          Design and implement a parser using a typical parser generator.(L6)
+        </li>
+        <li>
+          Implement an intermediate code generator based on given code
+          patterns.(L3).
+        </li>
+        <li>
+          Apply the optimization techniques to have a better code for code
+          generation.(L3).
+        </li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Introduction to Compilers: Structure of Compiler-Phases of Compiler,
+        Symbol Table Management, Grouping of Phases into Passes, Compiler Vs
+        Interpreter. Lexical Analysis: Role and need of Lexical Analyzer, Input
+        Buffering, Regular expressions for identifiers, Signed numbers etc.., A
+        Language for specifying Lexical Analyzer, Lexical phase errors.
+
+        <h3>UNIT-II</h3>
+        Syntactic Specification: Context Free Grammars, Derivations and Parse
+        Trees, Capabilities of Context Free Grammars, Syntactic Phase errors,
+        Semantic errors. Basic Parsing Techniques: Parsers, Shift-Reduce
+        Parsing, Operator-Precedence parsing, Top-Down parsing, Predictive
+        parsers.
+
+        <h3>UNIT-III</h3>
+        Construction of efficient Parsers: LR Parsers, Canonical collection of
+        LR(0) items, Constructing SLR parsing tables, Constructing LR parsing
+        tables, Constructing LALR parsing tables, using Ambiguous grammar,
+        Comparison of SLR,LALR and CALR parsers, Comparison of Top down and
+        Bottom up parsers.
+        <h3>UNIT-IV</h3>
+        Syntax Directed Translation: Syntax Directed Translation schemes,
+        Intermediate codes, Postfix notation, Three Address code, Quadruples and
+        triples. Symbol table: Contents of Symbol table, Data Structures for
+        symbol tables, representing scope information. Run-Time Environments:
+        Storage Organization, Stack allocation of space, Access to non data.
+        <h3>UNIT-V</h3>
+        Code Optimization: Principal sources of optimization, Loop optimization,
+        Copy Propagation, Dead code elimination, Redundant sub expression
+        elimination. Code Generation: Object programs, problems in Code
+        generation, A Machine Model, A Simple Code generator, Register
+        allocation and assignment, Peephole optimization.
+        <h3>Text Books</h3>
+        1. Alfred V Aho, Jeffrey D Ullman, Principles of Compiler Design,
+        Pearson Education, 2001.
+        <h3>Suggested / Reference Books</h3>
+        1. J P Trembly and P G Sorenson, The Theory and practice of Compiler
+        Writing, Mc Graw Hill, 2005.<br />
+        2. Alfred V Aho, Ravi sethi ,Jeffrey D Ullman, Compilers-Principles ,
+        Techniques and Tools , Pearson Education, second edition.<br />
+        3. Dick Grone, Henri E Bal, Ceriel J H Jacobs, Modern Compiler Design,
+        Wiley Dreamtech, 2006<br />
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

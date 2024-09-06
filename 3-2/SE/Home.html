@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>SOFTWARE ENGINEERING</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>SOFTWARE ENGINEERING</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>SOFTWARE ENGINEERING</h3>
+            <p class="fst-italic">
+              Software engineering is a discipline that applies engineering
+              principles to the design, development, testing, and maintenance of
+              software systems. It encompasses various processes, methodologies,
+              and tools to ensure the efficient and reliable delivery of
+              high-quality software. Key activities in software engineering
+              include requirements analysis, software design, implementation,
+              testing, deployment, and maintenance. By following systematic
+              approaches and best practices, software engineers aim to develop
+              software that meets customer needs, adheres to quality standards,
+              and is delivered on time and within budget. Effective software
+              engineering practices are essential for building robust, scalable,
+              and maintainable software solutions to address diverse
+              technological challenges across industries.
+            </p>
+            <h3>Major Features of Software Engineering</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Requirements
+                Engineering.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Software Design.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Implementation.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Testing.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Quality Assurance.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Configuration
+                Management.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Project Management.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Software Maintenance.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OBJECTIVES</h1>
+      <ul style="list-style-type: square">
+        <li>Understand the framework activities for a given project.</li>
+        <li>Choose a process model for given project requirements.</li>
+        <li>Design various system models for a given scenario.</li>
+        <li>Design various testing techniques.</li>
+        <li>Understand metrics for Products.</li>
+      </ul>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Outline the framework activities for a given project.</li>
+        <li>Apply Right process model for a given project.</li>
+        <li>Design various system models for a given Context.</li>
+        <li>Apply various testing techniques for a given project.</li>
+        <li>Identify various risks in project development.</li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Introduction to Software Engineering: The evolving role of software,
+        Changing Nature of Software, Software myths. A Generic view of process:
+        Software engineering- A layered technology, a process framework, The
+        Capability Maturity Model Integration (CMMI), Process models: The
+        waterfall model, Incremental process models, Evolutionary process model.
+        <h3>UNIT-II</h3>
+        Agile process Model: Agile principles, Extreme programming, Dynamic
+        System Development Methods, Feature Driven Development, Scrum framework,
+        Sprint, Scrum master, Roles of Scrum Master, Implementing Scrum - A case
+        study. Software Requirements: Functional and non-functional
+        requirements, the software requirements document. Requirements
+        engineering process: Feasibility studies, Requirements elicitation and
+        analysis, Requirements validation, Requirements management.
+        <h3>UNIT-III</h3>
+        System models: Context Models, Behavioral models, Data models, Object
+        models, structured methods. [TB-2,Ch-8] Design Engineering: Design
+        process and Design quality, Design concepts, the design model.Modeling
+        component level design: design class based components, conducting
+        component level design. Performing User interface design: Golden rules.
+        <h3>UNIT-IV</h3>
+        Testing Strategies: A strategic approach to software testing, test
+        strategies for conventional software, Black-Box and White-Box testing,
+        Validation testing, System testing. Product metrics : Software Quality,
+        Metrics for Analysis Model- function based metrics, Metrics for Design
+        Model-object oriented metrics, class oriented metrics, component design
+        metrics, Metrics for source code, Metrics for maintenance.
+        <h3>UNIT-V</h3>
+        Risk management: Reactive vs. Proactive Risk strategies, software risks,
+        Risk identification, Risk projection, Risk refinement, RMMM, RMMM Plan.
+        Quality Management: Quality concepts, Metrics for Software Quality,
+        Software Reviews, Formal Technical Reviews, Software Reliability, The
+        ISO 9000 quality standards.
+        <h3>Text Books</h3>
+        1. Roger S. Pressman, Software Engineering - A practitioner„s Approach,
+        th edition. McGraw Hill International Edition, 2005. <br />
+        2. Somerville, Software Engineering, 7th edition, Pearson education,
+        2009.<br />
+
+        <h3>Suggested / Reference Books</h3>
+        1. K.K. Agarwal & Yogesh Singh, Software Engineering, New Age
+        International Publishers,3rd edition, 2008<br />
+        2. Pankaj Jalote, An Integrated Approach to Software Engineering, Narosa
+        Publishing House, 3rd edition 2005.<br />
+        3. James F. Peters, Witold Pedrycz, Software Engineering - an
+        Engineering approach, JohnWiely, 2007.<br />
+        4. Waman S Jawadekar, Software Engineering Principles and Practice, The
+        McGraw-Hill Companies, 2013.<br />
+        5. https://nptel.ac.in/courses/106/105/106105182/<br />
+        6. https://ff.tu-sofia.bg/~bogi/knigi/SE/Mcgraw%20Hill%20-
+        %20Software%20Engineering%20- %20A%20Practitioner%27s%20Approach%20-
+        %20Pressman%20(5Th%20Ed,2001,Bookmarked,Cover).pdf
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

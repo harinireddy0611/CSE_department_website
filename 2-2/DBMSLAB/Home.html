@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>DBMS</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">PBL</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>DATABASE MANAGEMENT SYSTEMS LAB</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>DATABASE MANAGEMENT SYSTEMS LAB</h3>
+            <p class="fst-italic">
+              Database Management Systems (DBMS) are software tools that
+              facilitate the storage, organization, retrieval, and manipulation
+              of data in databases. They provide an interface between users and
+              the underlying data, ensuring data integrity, security, and
+              efficient access. DBMSs offer features such as data modeling,
+              query languages (e.g., SQL), transaction management, and
+              concurrency control. By centralizing data management and providing
+              mechanisms for data consistency and reliability, DBMSs play a
+              critical role in modern information systems across various
+              domains, including business, healthcare, education, and
+              government. They enable organizations to store and retrieve large
+              volumes of data efficiently, support concurrent access by multiple
+              users, and ensure data integrity and security through features
+              like authentication, authorization, and encryption.
+            </p>
+            <h3>Major Features of Database Management Systems</h3>
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i> Data Definition.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Data Manipulation.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Data Integrity.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Concurrency Control.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Data Security.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Data Recovery and
+                Backup.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Data Query
+                Optimization.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Database Administration
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>
+          Model Entity-Relationship diagrams for enterprise level databases[L3]
+        </li>
+        <li>
+          Formulate Queries using SQL and Relational Formal Query Languages[L3]
+        </li>
+        <li>Apply different normal forms to design the Database[L3]</li>
+        <li>
+          Summarize concurrency control protocols and recovery algorithms[L4]
+        </li>
+        <li>
+          Identify suitable Indices and Hashing mechanisms for effective storage
+          and retrieval of Data[L3]
+        </li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Introduction to Database System Concepts: Database-System Applications,
+        Purpose of Database Systems, View of Data, Database Language, Database
+        Design, Database Architecture, Database Users and Administrators.
+        Introduction to the Relation Models and Database Design using ER Model:
+        Structure of Relational Databases, Database Schema, Keys, Schema
+        Diagrams, Relational Query Languages, Relational Operations Overview of
+        the Design Process, The Entity-Relationship Model, Constraints,
+        Entity-Relationship Diagrams- Unary, Binary, ternary, Aggregation.
+        <h3>UNIT-II</h3>
+        Introduction to SQL: Overview of the SQL Query Language, SQL Data
+        Definition, Basic Structure of SQL Queries, Additional Basic Operations,
+        Set Operations, Aggregate Functions, Nested Sub queries. Formal
+        Relational Query Languages: The Relational Algebra, Tuple Relational
+        Calculus
+        <h3>UNIT-III</h3>
+        Relational Database Design: Features of Good Relational Designs, Atomic
+        Domains and First Normal Form, Functional Dependencies, Closure set of
+        Functional dependencies, Procedure for Computing F+, Boyce Codd Normal
+        form, BCNF Decomposition Algorithm, Third Normal Form, Third Normal Form
+        Decomposition Algorithm Transactions: Transaction Concept, A Simple
+        Transaction Model, Storage Structure, Transaction Atomicity and
+        Durability, Serializability
+        <h3>UNIT-IV</h3>
+        Concurrency Control: Lock-Based Protocols, Deadlock Handling, Multiple
+        Granularity, Timestamp-Based Protocols, Validation-Based Protocols.
+        Recovery System: Failure Classification, Storage, Recovery and
+        Atomicity, Recovery Algorithm, ARIES, Remote Backup Systems.
+        <h3>UNIT-V</h3>
+        File Organization: Fixed and variable length records, Sequential file
+        organization, Data Dictionary, Buffer manager. Indexing and Hashing:
+        Basic Concepts, Ordered Indices, B+-Tree Index Files, B+-Tree
+        Extensions, Multiple-Key Access, Static Hashing, Extendible Hashing,
+        Comparison of Ordered Indexing and Hashing, Bitmap Indices.
+        <h3>Text Books</h3>
+
+        <h3>Suggested / Reference Books</h3>
+        1..<br />
+        2. <br />
+        3.
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+.head {
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  background-image: url("https://nairametrics.com/wp-content/uploads/2023/01/1_ZDykPTwsPpSRNB76ONaxFg@2x.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.head h1 {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 250px;
+  /* background-color: rgba(0, 0, 0, 0.116); */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.251);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+  padding: 0 10px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 13px;
+  margin-left: 200px;
+}
+.navbar .icon,
+.navbar .close-btn {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 15px;
+}
+
+.navbar .icon {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar .close-btn {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: purple;
+}
+
+/* about */
+.about {
+  padding: 25px;
+  width: auto;
+  margin-top: 30px;
+  margin-left: 30px;
+  line-height: 30px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  gap: 200px;
+}
+.img-fluid {
+  height: 400px;
+  width: 500px;
+  margin-top: 20px;
+}
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 15px;
+  padding-right: 4px;
+  color: lightseagreen;
+}
+
+.about .content .learn-more-btn {
+  background: purple;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px 9px 25px;
+  white-space: wrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.about .content .learn-more-btn:hover {
+  background: purple;
+  color: #fff;
+}
+.courseoutcomes {
+  margin-top: 50px;
+}
+.courseoutcomes ul {
+  line-height: 30px;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.syllabus {
+  line-height: 30px;
+  margin-top: 50px;
+}
+.syll {
+  margin-left: 40px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.he1 {
+  font-size: 25px;
+  margin-left: 40px;
+  color: lightseagreen;
+}
+.footer {
+  height: 100px;
+  background-color: rgb(158, 158, 158);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top: 100px;
+}
+.bg-color {
+  background-color: #333;
+}
+
+@media screen and (max-width: 1000px) {
+  .head h1 {
+    font-size: 50px;
+  }
+  .navbar .nav {
+    display: none;
+  }
+
+  .navbar .icon {
+    display: block;
+    margin-left: 80%;
+    float: right;
+  }
+  .navbar.active {
+    background-color: #333;
+  }
+  .navbar.active .nav {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar.active .icon {
+    display: none;
+  }
+
+  .navbar.active .close-btn {
+    display: block;
+    margin-left: 80%;
+  }
+  .about .content .learn-more-btn {
+    margin: 0 58px 0 0;
+    padding: 6px 18px;
+  }
+  .img-fluid {
+    display: none;
+  }
+}
+
+/*
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+      }
+      .nav{
+        list-style: none;
+     flex-direction: row;
+        padding: 0;
+      }
+      .main-page{
+        margin-top: 200px;
+      } 
+      .navbar .icon{
+          font-size: 30px;
+          cursor: pointer;
+          display: block;
+        }
+        .navbar .close-btn {
+          display: none;
+          font-size: 30px;
+          cursor: pointer;
+        }
+        .navbar.active .nav{
+            display: block;
+          }
+          .navbar.active .icon {
+            display: none;
+          }
+          .navbar.active .close-btn {
+            display: block;
+          }
+      @media screen and (max-width: 768px) {
+      } */

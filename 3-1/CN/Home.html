@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>COMPUTER NETWORKS</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>COMPUTER NETWORKS</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>COMPUTER NETWORKS</h3>
+            <p class="fst-italic">
+              Computer networks are intricate systems that enable computers and
+              other devices to communicate and share resources, facilitating
+              seamless information exchange across various locations. These
+              networks can be as small as two interconnected devices or as vast
+              as the internet itself. They rely on protocols and technologies to
+              establish connections, manage data transmission, and ensure
+              security. Computer networks play a pivotal role in modern society,
+              powering everything from simple email exchanges to complex global
+              transactions, and underpinning the infrastructure of the digital
+              world.
+            </p>
+            <h3>Major Features of Computer Networks</h3>
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i> Connectivity.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Resource Sharing.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Scalability.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Reliability.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Security.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Speed.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Interoperability.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i>Centralized Management.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OBJECTIVES</h1>
+      <ul style="list-style-type: square">
+        <li>Understand OSI and TCP/IP models.</li>
+        <li>Understand Data Link Layer protocols.</li>
+        <li>Analyze various routing protocols.</li>
+        <li>Mention Transport layer protocols.</li>
+        <li>Outline Application Layer.</li>
+      </ul>
+    </div>
+
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Analyze TCP/IP and OSI models and various protocols.</li>
+        <li>Identify suitrable multiple access for different protocols.</li>
+        <li>Analyze various routing protocols.</li>
+        <li>List techniques to improve QoS.</li>
+        <li>Evaluate various responsibilities of application layer.</li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Network Models - Layered Tasks, OSI model, Layers in the OSI model,
+        TCP/IP protocol Suite, Addressing, Basics of switching.Data Link Layer:
+        Error detection and Correction-CRC,Checksum. Data Link Control-Framing,
+        Flow and Error Control.
+        <h3>UNIT-II</h3>
+        Data Link Layer: Wired LAN:Ethernet, Protocols,Noiseless Channels, Noisy
+        Channels, HDLC. Multiple Access -Random Access, Controlled Access,
+        Channelization.
+        <h3>UNIT-III</h3>
+        Network Layer: Internetworking: IPV4, IPV6, Transition from IPv4 to
+        IPv6, Delivery, Forwarding and Routing- Delivery, Forwarding, Routing
+        Tables: Static Routing Table ,Dynamic Routing Table, Unicast routing
+        protocols.
+        <h3>UNIT-IV</h3>
+        Network Layer: Internetworking: IPV4, IPV6, Transition from IPv4 to
+        IPv6, Delivery, Forwarding and Routing- Delivery, Forwarding, Routing
+        Tables: Static Routing Table ,Dynamic Routing Table, Unicast routing
+        protocols.
+        <h3>UNIT-V</h3>
+        Application Layer: Name Space, Domain Name Space, Distribution of Name
+        Space, DNS in Internet, Resolution, Domain Name Space (DNS) Messages,
+        Electronic Mail, FTP, HTTP.
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="Home.css" />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>DIGITAL LOGIN DESIGN</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">PBL</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>DIGITAL LOGIN DESIGN</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>DIGITAL LOGIN DESIGN</h3>
+            <p class="fst-italic">
+              Digital login design refers to the user interface and
+              functionality of the authentication process that allows users to
+              access digital services, websites, or applications securely. It
+              typically involves the presentation of login credentials, such as
+              usernames and passwords, and may incorporate additional security
+              measures like two-factor authentication or biometric verification
+              to ensure the identity of the user. The design aims to provide a
+              seamless and intuitive experience while prioritizing security and
+              usability.
+            </p>
+            <h3>Major Features of Digital Logic Design</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> User Authentication.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Usability.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Security Measures.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Password Management.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Accessibility.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Error Handling.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Customization.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Session Management.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Understand the Object Oriented Programming concepts(L2).</li>
+        <li>Design programs using package and interfaces(L6).</li>
+        <li>Apply the concepts of Exceptions and multithreading(L3).</li>
+        <li>Develop GUI applications and AWT using Frames (L6).</li>
+        <li>Design the programs using Applet and JDBC Concepts(L6).</li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Java Basics: History of Java, Java buzzwords, data types, variables,
+        scope and life time of variables, arrays, operators, expressions,
+        control statements, type conversion and costing, simple java program,
+        concepts of classes, objects, constructors, methods, access control,
+        this keyword, static keyword,garbage collection, overloading methods and
+        constructors, parameter passing, recursion, nested and inner classes,
+        Strings.
+
+        <h3>UNIT-II</h3>
+        Inheritance:Introduction, forms of inheritance- specialization,
+        specification, construction, extension, limitation, combination, Member
+        access rules, super uses, using final with inheritance Polymorphism-
+        method overriding, abstract classes, Object class Packages and
+        Interfaces : Defining, Creating and Accessing a Package, Understanding
+        CLASSPATH, importing packages, differences between classes and
+        interfaces, File, Byte Streams, Character Streams.
+
+        <h3>UNIT-III</h3>
+        Exception handling:Concepts of exception handling, exception hierarchy,
+        usage of try, catch, throw, throws and finally, built in exceptions,
+        creating own exception subclasses. Package java.util- The Collection
+        Interface, list interface, Queue interface, The Collection class:
+        LinkedListClass, HashSetClass. TreeSetClass, StringTokenizer, Date,
+        Random, Scanner Multi threading: Differences between multi threading and
+        multitasking, thread life cycle, creating threads, thread priorities,
+        synchronizing threads, inter thread communication.
+
+        <h3>UNIT-IV</h3>
+        Event Handling:Events, Event sources, Event classes, Event Listeners,
+        Delegation event model, handling mouse and keyboard events, Adapter
+        classes. AWT: class hierarchy, component, container, panel, window,
+        frame, graphics class, Layout Manager – layout manager types – boarder,
+        grid, flow, card and grib bag.
+
+        <h3>UNIT-V</h3>
+        AWT Controls: Labels, button, scrollbars, text components, check box,
+        check boxgroups, choices, menu bar. Applets: Concepts of Applets,
+        differences between applets and applications, life cycle of an applet,
+        create applets, passing parameters to applets. JDBC Connectivity: JDBC
+        Type 1 to 4 Drivers, connection establishment,QueryExecution. Text Books
+        Java- The Complete Reference, Seventh Edition, Herbert Schildt, Tata
+        McGraw Hill, Year of Publication:2017 Database Programming with
+        JDBC&JAVA, Second Edition,GeorgeReese, O’ReillyMedia, Year of
+        Publication:2009 Reference Books Understanding OOP with Java, updated
+        edition, T. Budd, Pearson Education. Thinking in Java Fourth Edition,
+        Bruce Eckel Introduction to Java programming, Y. Daniel Liang, Pearson
+        Education
+        <h3>Text Books</h3>
+        1.Java- The Complete Reference, Seventh Edition, Herbert Schildt, Tata
+        McGraw Hill, Year of Publication:2017 <br />2.Database Programming with
+        JDBC&JAVA, Second Edition,GeorgeReese, O’ReillyMedia, Year of
+        Publication:2009
+        <h3>Suggested / Reference Books</h3>
+        1. Understanding OOP with Java, updated edition, T. Budd, Pearson
+        Education.<br />
+        2. Thinking in Java Fourth Edition, Bruce Eckel<br />
+        3. Introduction to Java programming, Y. Daniel Liang, Pearson Education
+      </div>
+    </div>
+
+    <div class="footer">Designed by TEAM TWO IDIOTS AND ONE GENIUS</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

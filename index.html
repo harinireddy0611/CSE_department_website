@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>CSE</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <h2>Department Of CSE</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="index.html" class="nav_menu_link">Home</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">II-I Sem</a>
+              <div class="dropdown-content">
+                <a href="./2-1/DLD/Home.html">Digital Logic Design</a>
+                <a href="./2-1/DS/Home.html">Data Structures</a>
+                <a href="./2-1/FLAT/Home.html"
+                  >Formal Languages and Automata Theory</a
+                >
+                <a href="./2-1/PYTHON/Home.html">Python Programming</a>
+                <a href="./2-1/PYTHON/Home.html">Python Programming Lab</a>
+                <a href="./2-1/DS/Home.html">Data Structures Lab</a>
+                <a href="./2-1/LINUX/Home.html">Linux Programming Lab </a>
+                <a href="./2-1/DT/Home.html">Design Thinking Lab </a>
+                <a href="./2-1/GS/Home.html">Gender Sensitization</a>
+              </div>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">II-II Sem</a>
+              <div class="dropdown-content">
+                <a href="2-2/COA/Home.html"
+                  >Computer organization and architecture</a
+                >
+                <a href="2-2/DAA/Home.html">
+                  Design and Analysis of Algorithms
+                </a>
+                <a href="./2-2/DBMS/Home.html">Database Management Systems</a>
+                <a href="./2-2/DBMS-LAB/Home.html"
+                  >Database Management Systems Lab</a
+                >
+                <a href="./2-2/JAVA-LAB/Home.html">Java Programming Lab </a>
+                <a href="./2-2/JAVA/Home.html">Java Programming </a>
+                <a href="./2-2/SS/Home.html">Soft Skills for Success Lab</a>
+                <a href="./2-2/ES/Home.html">Environmental Science</a>
+              </div>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">III-I Sem</a>
+              <div class="dropdown-content">
+                <a href="./3-1/CN/Home.html">Computer Networks</a>
+                <a href="./3-1/OS/Home.html">Operating Systems</a>
+                <a href="./3-1/FAI/Home.html"
+                  >Fundamentals of Artificial Intelligence</a
+                >
+                <a href="./3-1/WT/Home.html">Web Technologies</a>
+                <a href="./3-1/OSCN-LAB/Home.html"
+                  >Operating Systems & Computer Networks Lab</a
+                >
+                <a href="./3-1/WT-LAB/Home.html">Web Technologies Lab </a>
+              </div>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">III-II Sem</a>
+              <div class="dropdown-content">
+                <a href="3-2/ML/Home.html">Machine Learning</a>
+                <a href="3-2/CD/Home.html">Compiler Design</a>
+                <a href="3-2/SE/Home.html">Software Engineering</a>
+                <a href="3-2/RP/Home.html">R Programming</a>
+                <a href="3-2/BIGDATA/Home.html">Big Data</a>
+                <a href="3-2/ML LAB/Home.html">Machine Learning Lab</a>
+              </div>
+            </li>
+            <li class="nav_menu_item">
+              <a href="#" class="nav_menu_link">IV-I Sem</a>
+              <div class="dropdown-content">
+                <a href="4-1/CIS/Home.html"
+                  >Cryptography and Information Security</a
+                >
+                <a href="4-1/CIS LAB/Home.html"
+                  >Cryptography and Information Security-Lab</a
+                >
+                <a href="4-1/FCC/Home.html">Fundamentals of Cloud Computing</a>
+                <a href="4-1/DSV/Home.html">Data Science and Visualization</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <i class="ri-menu-line"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img
+                src="https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-statistics-clipart-business-cartoon-man-presenting-a-power-point-and-diagram-vector-png-image_6816790.png"
+                alt="team-img"
+              />
+            </div>
+          </div>
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Welcome to <span>Department Of CSE</span>
+              <br />
+              Learn anything.
+            </h1>
+            <p class="info-text">
+              "The CSE department: a fusion of tech and creativity, shaping the
+              digital landscape with top resources and diverse perspectives."
+            </p>
+
+            <div class="btn_wrapper">
+              <a class="btn view_more_btn" href="#time">
+                Know more <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="timeline" id="time">
+      <h1 style="font-weight: bold; font-size: 30px">Steps to use website</h1>
+      <div
+        class="timeline__event animated fadeInUp delay-3s timeline__event--type1"
+      >
+        <div class="timeline__event__icon">
+          <i class="lni-cake"></i>
+        </div>
+        <div class="timeline__event__date">Step 1</div>
+        <div class="timeline__event__content">
+          <div class="timeline__event__title">Go to the navbar.</div>
+        </div>
+      </div>
+      <div
+        class="timeline__event animated fadeInUp delay-2s timeline__event--type2"
+      >
+        <div class="timeline__event__icon">
+          <i class="lni-burger"></i>
+        </div>
+        <div class="timeline__event__date">Step 2</div>
+        <div class="timeline__event__content">
+          <div class="timeline__event__title">
+            Click on your semester of education.
+          </div>
+        </div>
+      </div>
+      <div
+        class="timeline__event animated fadeInUp delay-1s timeline__event--type3"
+      >
+        <div class="timeline__event__icon">
+          <i class="lni-slim"></i>
+        </div>
+        <div class="timeline__event__date">Step 3</div>
+        <div class="timeline__event__content">
+          <div class="timeline__event__title">
+            Click on your choice of subject
+          </div>
+        </div>
+      </div>
+      <div class="timeline__event animated fadeInUp timeline__event--type1">
+        <div class="timeline__event__icon">
+          <i class="lni-cake"></i>
+        </div>
+        <div class="timeline__event__date">Step 4</div>
+        <div class="timeline__event__content">
+          <div class="timeline__event__title">Explore the resources.</div>
+        </div>
+      </div>
+    </div>
+    <section class="wrapper">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Built for students </span>
+              <p>
+                "Crafted with students in mind, our platform is tailored to
+                empower learning journeys with intuitive tools and resources,
+                designed for academic success."
+              </p>
+            </div>
+          </div>
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Designed to be modern</span>
+              <p>
+                "Experience a cutting-edge interface that blends sleek
+                aesthetics with contemporary functionalities, ensuring a modern
+                learning experience tailored for today's students."
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span class="title">Resources for everything</span>
+              <p>
+                "Access an extensive array of resources spanning every subject
+                imaginable, providing comprehensive support for all your
+                academic endeavors."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="main">
+      <h1>Course Coordinators</h1>
+      <hr />
+
+      <div class="facultybox">
+        <div class="faculty">
+          <img
+            src="https://anurag.edu.in/wp-content/uploads/2023/03/vishnu-sir.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Dr. G. Vishnumurhy</h1>
+            <p>Software Engineering</p>
+            <p>deancse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anurag.edu.in/wp-content/uploads/2023/05/4.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Dr. Sridevi</h1>
+            <p>Data structures</p>
+            <p>sridevicse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anurag.edu.in/wp-content/uploads/2023/05/7.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Dr. K. Shailaja</h1>
+            <p>Operating Systems</p>
+            <p>kshailajacse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anurag.edu.in/wp-content/uploads/2023/05/22-300x300.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Dr. A. Jyothi</h1>
+            <p>Fundamentals of Cloud Computing</p>
+            <p>ajyothicse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anuragweb.club/courses/assets/img/raj.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Mr. Rajasekhar Reddy</h1>
+            <p>Data Base Management Systems</p>
+            <p>rajasekharreddycse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anurag.edu.in/wp-content/uploads/2023/05/12-300x300.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Mrs. Swapna Goud</h1>
+            <p>Python Programming</p>
+            <p>swapnagoudcse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anurag.edu.in/wp-content/uploads/2023/05/15-300x300.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Mr. V Ramakrishna</h1>
+            <p>Web Technologies</p>
+            <p>ramakrishnacse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anurag.edu.in/wp-content/uploads/2024/03/Ms.-B.-JYOTHI--300x300.jpeg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Ms. B Jyothi</h1>
+            <p>R Programming</p>
+            <p>bjyothicse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anurag.edu.in/wp-content/uploads/2023/05/19-300x300.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Mr. Madar Bandu</h1>
+            <p>Java Programming</p>
+            <p>madarbanducse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anuragweb.club/courses/assets/img/balram.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Mr. Balaram</h1>
+            <p>Data Science and Visualization</p>
+            <p>balaramcse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anuragweb.club/courses/assets/img/vinayasree.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Mrs. P. Vinaya Sree</h1>
+            <p>Cryptography and I S</p>
+            <p>vinayasreecse@anurag.edu.in</p>
+          </div>
+        </div>
+
+        <div class="faculty">
+          <img
+            src="https://anuragweb.club/courses/assets/img/durga.jpg"
+            alt=""
+            class="fac"
+          />
+          <div class="details">
+            <h1>Mrs. Durga Bhavani</h1>
+            <p>FLAT</p>
+            <p>durghabhavanicse@anurag.edu.in</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="script.js" defer></script>
+  </body>
+</html>

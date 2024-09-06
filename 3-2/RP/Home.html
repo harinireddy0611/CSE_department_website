@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>R PROGRAMMING</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>R PROGRAMMING</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>R PROGRAMMING</h3>
+            <p class="fst-italic">
+              R programming is a powerful open-source language and environment
+              for statistical computing and graphics. It is widely used for data
+              analysis, statistical modeling, visualization, and machine
+              learning tasks. R provides a rich ecosystem of packages and
+              libraries for various statistical and data analysis techniques,
+              making it a preferred choice for researchers, analysts, and data
+              scientists. With its intuitive syntax and extensive community
+              support, R enables users to manipulate data, perform statistical
+              tests, create visualizations, and develop sophisticated analytical
+              models efficiently. Whether analyzing large datasets, generating
+              interactive plots, or building predictive models, R programming
+              offers versatile tools and capabilities to tackle a wide range of
+              data-driven challenges.
+            </p>
+            <h3>Major Features of R Programming</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Statistical Computing.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Data Visualization.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Data Manipulation.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Programming
+                Flexibility.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Community and Packages.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Integration and
+                Interoperability.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Reproducibility and
+                Documentation.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Community Support and
+                Resources.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OBJECTIVES</h1>
+      <ul style="list-style-type: square">
+        <li>
+          To provide an overview of a new language R used for data science.
+        </li>
+        <li>To Familiarize students with R syntax</li>
+        <li>
+          Understand the concepts of vector, Factors, Data Frames and data types
+        </li>
+        <li>Get exposed to a few functions</li>
+        <li>
+          To familiarize students with how various statistics like mean median
+          etc. can be collected for data exploration in R
+        </li>
+        <li>
+          To enable students to use R to conduct analytics on large real life
+          datasets.
+        </li>
+      </ul>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Demonstrate vector and matrix operations using R.</li>
+        <li>Apply various operators on data frames and list.</li>
+        <li>Write functions using iterative programming</li>
+        <li>Analyze the data using R</li>
+        <li>
+          Describe linear and multiple regression models for time series data &
+          web data
+        </li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Basics of R: Introduction, R-Environment Setup, Programming with R,
+        Basic Data Types, Vectors: Creating and Naming Vectors, Vector
+        Arithmetic, Vector Sub setting, Matrices: Creating and Naming Matrices,
+        Matrix Sub setting, Arrays, Class.
+        <h3>UNIT-II</h3>
+        Factors and Data Frames : Introduction to Factors: Factor Levels,
+        Summarizing a Factor, Ordered Factors, Comparing Ordered Factors,
+        Introduction to Data Frame, Subsetting of Data Frames, Extending Data
+        Frames, Sorting Data Frames. Lists: Introduction, Creating a List:
+        Creating a Named List, Accessing List Elements, Manipulating List
+        Elements, Merging Lists, Converting Lists to Vectors, Conditionals and
+        Control Flow: Relational Operators, Relational Operators and Vectors,
+        Logical Operators, Logical Operators and Vectors, Conditional
+        Statements.
+        <h3>UNIT-III</h3>
+        Iterative Programming in R: Introduction, While Loop, For Loop, Looping
+        Over List. Functions in R: Introduction, Writing a Function in R, Nested
+        Functions, Function Scoping, Recursion, Loading an R Package,
+        Mathematical Functions in R, Cumulative Sums and Products, Calculus in
+        R, Input and Output Operations
+        <h3>UNIT-IV</h3>
+        Apply Family in R : Introduction, Using Apply in R, Using Lapply in R,
+        Using Sapply, Using Tapply in R: Split Function, Using Mapply in R,
+        Charts and Graphs : Introduction, Pie Chart: Chart Legend, 3D Pie Chart,
+        Bar Chart, Box Plot, Histogram, Line Graph: Multiple Lines in Line
+        Graph, Scatter Plot.
+
+        <h3>UNIT-V</h3>
+        Data Interfaces: Introduction, CSV Files: Syntax, Importing a CSV File,
+        Excel Files: Syntax, Importing an Excel file, Binary Files: Syntax, XML
+        Files, Web Data, Databases. Statistical Applications: Introduction,
+        Basic Statistical Operations, Linear Regression Analysis, Chi-Squared
+        Goodness of Fit Test, Chi-Squared Test of Independence, Multiple
+        Regression, Time Series Analysis.
+        <h3>Text Books</h3>
+        1. K G Srinivas ,G M Siddesh “Statistical programming in R”, Oxford
+        Publications.<br />
+        2. Gardener, M (2013), Beginning R, New Delhi: Wiley India<br />
+        <h3>Suggested / Reference Books</h3>
+        1. K Beginning R: The Statistical Programming Language,Mark
+        Gardener,Wrox<br />
+        2. Y. Anchang Zhao ,R and Data Mining: Examples and Case Studies .
+        Elsevier in December 2012.<br />
+        3. Avril Coghlan ,A Little Book of R For Time Series,Release 0.2<br />
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

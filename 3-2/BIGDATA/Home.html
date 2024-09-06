@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>BIGDATA</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>BIGDATA</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>BIGDATA</h3>
+            <p class="fst-italic">
+              Big data refers to large volumes of structured, semi-structured,
+              and unstructured data that inundate businesses on a day-to-day
+              basis. It's not the amount of data that's important, but what
+              organizations do with the data that matters. Big data analytics
+              involves examining large and varied datasets to uncover hidden
+              patterns, unknown correlations, market trends, customer
+              preferences, and other useful business information. The insights
+              gained from big data analytics can lead to more informed
+              decisions, improved operational efficiency, better customer
+              service, and competitive advantages for businesses across various
+              industries. Handling big data requires specialized tools and
+              techniques, including distributed computing frameworks like Hadoop
+              and Spark, NoSQL databases, and machine learning algorithms.
+              Overall, big data has the potential to revolutionize businesses
+              and drive innovation in the digital age.
+            </p>
+            <h3>Major Features of BigData</h3>
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i> Volume.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Velocity.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Variety.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Variability.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Veracity.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Value.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Visualization.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Scalability.</li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OBJECTIVES</h1>
+      <ul style="list-style-type: square">
+        <li>Identify various tools and techniques in big data analytics</li>
+        <li>Distinguish Hadoop and related technologies.</li>
+        <li>
+          Apply the development of applications using MapReduce, HDFS, YARN
+        </li>
+        <li>Illustrate Enterprise Data Science and data visualization tools</li>
+        <li>Distinguish various NoSQL databases</li>
+      </ul>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Identify need of big data and various analytical tools [L2]</li>
+        <li>Analyze various components HDFS [L4]</li>
+        <li>
+          Apply several data intensive tasks using Map-Reduce paradigm [L3]
+        </li>
+        <li>
+          Demonstrate the applications of Enterprise Data Science and data
+          visualization tools [L3]
+        </li>
+        <li>Compare various NoSQL databases [L4]</li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Overview of Big Data Analytics: Introduction to Data Analytics and Big
+        Data, Evolution of big data, Challenges with Traditional Large Scale
+        Systems, characteristics ( 3 V‟s) , types (structured, semi-structured
+        and unstructured) and sources of Big Data, Distributed, Parallel
+        Computing and Cloud Computing for big data. Analytics Toolkit:
+        Components of the analytics toolkit, Analytical Sandbox: Internal,
+        External and Hybrid.
+        <h3>UNIT-II</h3>
+        Hadoop Distributed File System (HDFS): Hadoop Architecture: HDFS,
+        MapReduce, YARN, HDFS Architecture: Name node, Data node, Secondary Name
+        Node, Scaling Out – Block, Data Flow, Replica. MapReduce: Phases
+        (Mapper, Sort and Shuffle, Reducer), YARN: Combiner Functions,
+        Streaming, HDFS, filesystems, Job Scheduling, I/O, Data Integrity,
+        Compression, Serialization, File based Data Structures, Developing a
+        MapReduce Application
+        <h3>UNIT-III</h3>
+        Hadoop Cluster and MapReduce: Hadoop Cluster specification and modes of
+        operation, Hadoop installation and configuration, YARN configuration,
+        Sample Map Reduce Application. HDFS Concepts-Interacting HDFS using
+        command lineInteracting Java API
+        <h3>UNIT-IV</h3>
+        Introduction to data visualization: What is data visualization,
+        Importance of data exploration and data visualization. Fundamentals:
+        Design principles, Dashboards, Visualization tools, Data Visualization
+        in Healthcare and Media & Entertainment.
+        <h3>UNIT-V</h3>
+        Hadoop Ecosystem: Apache Spark, Zookeeper and Sqoop. Introduction to
+        Languages and Databases: Pig, Hive. NOSQL Databases: Cassandra, Mongo,
+        Cloudera, CouchDB, Hbase
+        <h3>Text Books</h3>
+        1. Tom White, Hadoop: The Definitive Guide, rd Edition, O‟Reilly, <br />
+        2. Sridhar Alla, Big Data Analytics with Hadoop3, Packt Publication,
+        2018. <br />
+        3. DT Editorial Services, Big Data: Black Book, 2016<br />
+        <h3>Suggested / Reference Books</h3>
+        1. Michael Minelli, Michehe Chambers, “Big Data, Big Analytics: Emerging
+        Business Intelligence and Analytic Trends for Today‟s Business”, st
+        Edition, Ambiga Dhiraj, Wiely CIO Series, 2013. <br />
+        2. Arvind Sathi, “Big Data Analytics: Disruptive Technologies for
+        Changing the Game”, st Edition, IBM Corporation, 2012. <br />
+        3. Bill Franks, “Taming the Big Data Tidal Wave: Finding Opportunities
+        in Huge Data Streams with Advanced Analytics”, st Edition, Wiley and SAS
+        Business Series, 2012. <br />
+
+        Web Resources 1. https://cognitiveclass.ai/learn/big-data<br />
+        2. https://hadoop.apache.org/<br />
+        3. https://mschermann.github.io/data_viz_reader<br />
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

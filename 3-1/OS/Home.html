@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>OPERATING SYSTEMS</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>OPERATING SYSTEMS</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>OPERATING SYSTEMS</h3>
+            <p class="fst-italic">
+              Operating systems (OS) are software that manage computer hardware
+              and software resources, providing a user-friendly interface for
+              users and applications to interact with the computer. They handle
+              tasks such as memory management, process scheduling, file
+              management, and device control, facilitating efficient and secure
+              operation of computers and devices.
+            </p>
+            <h3>Major Features of Operating Systems</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Process Management.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Memory Management.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> File System Management.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Device Management.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> User Interface.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Security.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Networking.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Error Handling.</li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OBJECTIVES</h1>
+      <ul style="list-style-type: square">
+        <li>Understand OSI and TCP/IP models.</li>
+        <li>Understand Data Link Layer protocols.</li>
+        <li>Analyze various routing protocols.</li>
+        <li>Mention Transport layer protocols.</li>
+        <li>Outline Application Layer.</li>
+      </ul>
+    </div>
+
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Summarize operating system and process management concepts.</li>
+        <li>Apply process scheduling and synchronization related issues.</li>
+        <li>
+          Explain Deadlock prevention, avoidance, detection, recovery
+          mechanisms.
+        </li>
+        <li>Analyze effectively memory management concepts.</li>
+        <li>Illustrate various protection and security measures.</li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Operating Systems Overview Introduction -What operating system do,
+        Operating system structure (uni-programmed and multi programmed),
+        Operating system operations, Operating system services, System calls,
+        Types of System calls, Operating system structure. Process Management-
+        Process concepts, Process scheduling, Operations on processes, Inter
+        process communication.
+        <h3>UNIT-II</h3>
+        Process Scheduling and Synchronization Process Scheduling – Basic
+        concepts, Scheduling criteria, Scheduling algorithms, -Multithreaded
+        programming: Overview, Multithreading models, Thread scheduling. Process
+        Synchronization Process coordination: Synchronization – Background, The
+        critical section problem, Peterson’s solution, Synchronization hardware,
+        Semaphore, Classical problems of synchronization, Monitors.
+        <h3>UNIT-III</h3>
+        Deadlocks System model, Deadlock characterization, Methods for handling
+        deadlocks, Deadlock prevention, Detection and avoidance, Recovery from
+        deadlock.
+        <h3>UNIT-IV</h3>
+        Memory Management Swapping, Contiguous memory allocation, Paging,
+        Segmentation. Virtual memory management - Demand paging, copy-on-write,
+        page-replacement, Thrashing.
+        <h3>UNIT-V</h3>
+        File system, system protection and security Storage management – File
+        concept, Access methods, Directory and disk structure, File-system
+        mounting. System protection- Goals of protection, principles of
+        protection, Domain of protection, Access matrix. System Security –
+        Security problem, Program threats, System and Network threats.
+        <h3>Text Books</h3>
+        Abraham Silberchatz, Peter B. Galvin, Greg Gagne, Operating System
+        Concepts, 9th edition, John Wiley, 2016.
+        <h3>Suggested / Reference Books</h3>
+        1. D.M. Dharmdhere, Operating Systems – A Concept based Approach, 2nd
+        Edition. TMH, 2007. <br />2. Andrew S Tanenbaum, Modern Operating
+        Systems, 3rd Edition, PHI, 2008.<br />
+        3. Behrouz A. Forouzan, Richard F. Gilberg, Unix and shell programming,
+        cengage Learning 2009.
+      </div>
+    </div>
+
+    <div class="footer">Designed by TEAM TWO IDIOTS AND ONE GENIUS</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

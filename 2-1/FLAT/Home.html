@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>FLAT</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">PBL</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>FORMAL LANGUAGES AND AUTOMATA THEORY</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>FORMAL LANGUAGES AND AUTOMATA THEORY</h3>
+            <p class="fst-italic">
+              Formal languages and automata theory is a branch of theoretical
+              computer science that explores the mathematical models of
+              computation. It investigates the properties of formal languages,
+              which are sets of strings of symbols, and the automata, which are
+              abstract machines capable of recognizing or generating these
+              languages. This field is crucial for understanding the
+              capabilities and limitations of computational systems, forming the
+              theoretical basis for various aspects of computer science,
+              including compiler design, natural language processing, and
+              algorithm analysis.
+            </p>
+            <h3>Major Features of Formal Languages and Automata Theory</h3>
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i> Formalization.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Language
+                Classification.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Automata Models.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Expressive Power.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Decidability and
+                Complexity.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Closure Properties.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Applications.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Equivalence and
+                Minimization.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>
+          Design of regular expressions for language constructs and conversions
+          of NFA to DFA.
+        </li>
+        <li>
+          Demonstrate the derivations and properties of context free grammars.
+        </li>
+        <li>Analyze the applications of pushdown automata.</li>
+        <li>Construct DFA for Right Linear Grammar and Left Linear Grammar.</li>
+        <li>
+          Appreciate the role of the Turing machine as computational and
+          universal machine.
+        </li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Fundamental concepts: Strings, Alphabets, Language operations, Regular
+        Expressions, Regular Languages: Finite automata, Types of finite
+        automata (FA)-Non deterministic Finite Automata (NFA), Deterministic
+        Finite Automata(DFA), NFA with ɛ-Moves, regular expression
+        representation; Regular expressions to NFA; NFA with ɛ-Moves to NFA
+        without ɛ-Moves; NFA to DFA Conversions; Minimization of DFA (Proofs Not
+        Required)
+        <h3>UNIT-II</h3>
+        DFA with more than two outputs: Moore and Melay machines, Pumping Lemma
+        for Regular Sets: Closure properties of Regular Sets (Proofs Not
+        Required): Context Free Grammars (CFG), Right most, Left most
+        –derivations, Parse Trees; Operator Grammar: Unit productions; Chomsky
+        normal forms; (Proofs Not Required).
+        <h3>UNIT-III</h3>
+        Left recursion and Elimination of left recursion in CFG: Elimination of
+        useless symbols and unit productions; Greibach Normal Form, Push Down
+        automata (PDA): Types of PDA: Design of a PDA for a given CFG. (Proofs
+        Not Required)
+        <h3>UNIT-IV</h3>
+        Regular Grammars (RG), Design of DFA for a given RG: Right linear and
+        left linear Grammars and conversions: Definition of Context Sensitive
+        Grammar (CSG) and Linear bounded automata (LBA) (Proofs Not Required).
+        <h3>UNIT-V</h3>
+        Definition of unrestricted Grammar and Turing Machine (TM): Chomsky
+        hierarchy on Languages, Grammars and recognizers; Design of TM as
+        recognizer; Types of TM: Computational problems of TM with multiple
+        tracks; Decidability Problem; Churches hypothesis (Proofs Not Required)
+        <h3>Text Books</h3>
+        1.Introduction to Automata Theory, Languages and Computation, John
+        E.Hopcroft, Rajeev Motwani , Jeffrey D.Ullman, Pearson, Third
+        Edition.<br />
+        2.Theory of Computation, Vivek Kulakarni, Oxford University press 2013,
+        Second Edition 2014.
+        <h3>Suggested / Reference Books</h3>
+        1.Introduction to Computer theory, Daniel I.A.Cohen, John Wiley.
+        <br />
+        2.Introduction to languages and the theory of Computation, John C
+        Martin,TATA McGraw Hill. <br />
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

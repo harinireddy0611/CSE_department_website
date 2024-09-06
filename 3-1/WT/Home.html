@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>WEB TECHNOLOGIES</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>WEB TECHNOLOGIES</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>WEB TECHNOLOGIES</h3>
+            <p class="fst-italic">
+              Web technologies refer to the collection of tools, languages,
+              protocols, and standards used to build and operate websites and
+              web applications. These technologies encompass everything from
+              front-end development languages like HTML, CSS, and JavaScript to
+              back-end frameworks like PHP, Python, and Node.js, as well as
+              databases, web servers, and networking protocols. They enable the
+              creation, delivery, and interaction with content and services over
+              the World Wide Web, shaping the digital experiences we encounter
+              online.
+            </p>
+            <h3>Major Features of Web Technologies</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> HTML (Hypertext Markup
+                Language).
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> CSS (Cascading Style
+                Sheets).
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> JavaScript.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Backend Programming
+                Languages.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Web Servers.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Databases.</li>
+              <li><i class="fa-solid fa-circle-check"></i> Web Frameworks.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> APIs (Application
+                Programming Interfaces).
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Develop static web pages using HTML tags (L3)</li>
+        <li>Apply style sheets to web pages with data validation (L3)</li>
+        <li>Create Machine understandable web documents usingXML (L6)</li>
+        <li>Develop servlet based dynamic web application (L3)</li>
+        <li>Design data driven web application (L6)</li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Introduction to Web: Understanding Internet and Web, Web Architechture,
+        Web servers, protocols: HTTP Introduction to HTML: History of HTML, www,
+        HTML Basics : Elements, Attributes, Tags, Tables, Forms, Frames.div and
+        span tags Course Outcome: Develop static web page using HTML tags
+        <h3>UNIT-II</h3>
+        CSS: Introduction to Cascading Style Sheet, Types of style sheets, page
+        layout, selectors, pseudo classes and elements JAVA SCRIPT: Introduction
+        to scripting, control structures, conditional statements, Array
+        functions, objects HTML DOM: Predefined object (Window, Location,
+        History, Navigator), Events, DOM Node methods, Navigation Nodes:
+        creating nodes, adding nodes, inserting nodes, removing & replacing
+        nodes, Form object and elements, DHTML with Java script Course Outcome:
+        Apply style sheets to web pages with datac validation
+        <h3>UNIT-III</h3>
+        XML: Basic of XML, Elements, Attributes, validation, Nameapace XML
+        Scheme Languages: Introduction to DTD, internal and external DTD,
+        Elements of DTD DTD Limitations, XML Schema, Schema structure, Elements,
+        parsing using XML XML DOM: Document node, element node, Text node, Java
+        and DOM, Navigating DOM Tree Course Outcome: Create Machine
+        understandable web documents using XML
+        <h3>UNIT-IV</h3>
+        AJAX: Introduction, Environment, Asynchronous communication, process
+        steps, sending and retrieving information, Ajax with XML Servlets:
+        Introduction, Lifecycle, Generic and HTTP servlet, passing parameters to
+        servlet, HTTP servlet Request & Response interfaces Deploying web
+        applications Session Tracking: Hidden form fields, cookies,
+        URL-Rewriting, session Course Outcome: Develop servlet based dynamic web
+        application
+        <h3>UNIT-V</h3>
+        JSP: Introduction, Difference between servlets & JSP, Anatomy of JSP
+        page, JSP elements: Directives, comments, expressions, script lets,
+        Declaration, Implicit JSP objects, using Action elements JDBC:
+        Introduction, JDBC Drivers, Loading Driver, establishing connection,
+        Executing SQL statement in JSP pages, MVC Architechture Course Outcome:
+        Design data driven web applications
+
+        <h3>Text Books</h3>
+
+        <h3>Suggested / Reference Books</h3>
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>DAA</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">PBL</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>DESIGN AND ANALYSIS OF ALGORITHMS</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>DESIGN AND ANALYSIS OF ALGORITHMS</h3>
+            <p class="fst-italic">
+              The Design and Analysis of Algorithms is a field of computer
+              science concerned with the study of efficient algorithms for
+              solving computational problems. It involves designing algorithms
+              to solve specific problems and analyzing their efficiency in terms
+              of time and space complexity. The goal is to develop algorithms
+              that are both correct and efficient, capable of solving problems
+              optimally within reasonable resource constraints. This field
+              encompasses various techniques, including divide and conquer,
+              dynamic programming, greedy algorithms, and graph algorithms,
+              among others. By understanding algorithmic design principles and
+              analyzing algorithm performance, researchers and practitioners can
+              develop effective solutions to a wide range of computational
+              problems, driving innovation and advancement in technology.
+            </p>
+            <h3>Major Features of Design and Analysis of Algorithms</h3>
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i> Problem Solving.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Algorithmic Paradigms.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Correctness.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Efficiency Analysis:.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Asymptotic Analysis.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Optimization
+                Techniques.
+              </li>
+              <li><i class="fa-solid fa-circle-check"></i> Data Structures.</li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Algorithmic Problems.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>
+          Formulate the knowledge of algorithm analysis and its notations that
+          are applied on the problems solved by divide and conquer paradigm.
+          (L6)
+        </li>
+        <li>
+          Design the major graph algorithms for model engineering problems and
+          knowledge of the greedy paradigm(L6)
+        </li>
+        <li>
+          Apply the dynamic-programming paradigm and recite algorithms that
+          employ this paradigm. (L3)
+        </li>
+        <li>
+          Illustrate the concept of backtracking, branch and bound paradigm for
+          real time problems. (L4)
+        </li>
+        <li>
+          Analyze the complexity of problems and differentiate that in terms of
+          P and NP problems with examples. (L4)
+        </li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Introduction: Algorithm, Pseudo code for expressing algorithms,
+        Performance Analysis-Space complexity, Time complexity, Asymptotic
+        Notation- Big oh notation, Omega notation, Theta notation and Little oh
+        notation, Disjoint Sets- disjoint set operations, union and find
+        operations Divide and conquer: General method, applications-Binary
+        search, Quick sort, Merge sort.
+        <h3>UNIT-II</h3>
+        Graphs: breadth first search, depth first search, spanning trees,
+        connected and bi connected components. Greedy method: General method,
+        applications-Job sequencing with deadlines, 0/1 knapsack problem,
+        Minimum cost spanning trees, Single source shortest path problem.
+        <h3>UNIT-III</h3>
+        Dynamic Programming: General method, Multi stage
+        graph,applications-Matrix chain multiplication, Optimal binary search
+        trees, 0/1 knapsack problem, All pairs shortest path problem, Travelling
+        salesperson problem.
+        <h3>UNIT-IV</h3>
+        Backtracking: General method, applications-n-queen problem, sum of
+        subsets problem, graph coloring, Hamiltonian cycles. Branch and Bound:
+        General method, applications - Travelling sales person problem,0/1
+        knapsack problem- LC Branch and Bound solution, FIFO Branch and Bound
+        solution.
+        <h3>UNIT-V</h3>
+        Lower Bound Theory: Comparison trees ,NP-Hard and NP-Complete problems:
+        Basic concepts, non-deterministic algorithms, NP - Hard and NP Complete
+        classes, Clique Decision Problem(CDP), Node cover decision problem
+        <h3>Text Books</h3>
+        1. Ellis Horowitz, Satraj Sahni and Rajasekharam, Fundamentals of
+        Computer Algorithms,Galgotia publications pvt. Ltd, Second Edition,
+        2007. <br />
+        2. Thomas H. Cormen,Charles E. Leiserson,Ronald L. Rivert and Clifford
+        Stein, Introdution to Algorithms, Third Edition ,PHI Learning Private
+        Limited , Eastern Economy Edition, 2008.
+        <h3>Suggested / Reference Books</h3>
+        1.Aho, Ullman and Hopcroft,Design and Analysis of algorithms, Pearson
+        education, Reprint 2002<br />
+        2. R.C.T.Lee, S.S.Tseng, R.C.Chang and T.Tsai,Introduction to Design and
+        Analysis of Algorithms A strategic approach, Mc Graw Hill,2005.<br />
+        3. Allen Weiss,Data structures and Algorithm Analysis in C++,Third
+        edition, Pearson education.
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

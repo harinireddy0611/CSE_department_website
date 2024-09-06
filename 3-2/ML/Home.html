@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>MACHINE LEARNING</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>MACHINE LEARNING</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>MACHINE LEARNING</h3>
+            <p class="fst-italic">
+              Machine learning is a subset of artificial intelligence that
+              focuses on developing algorithms and models that enable computers
+              to learn from data and make predictions or decisions without being
+              explicitly programmed. It involves techniques such as supervised
+              learning, unsupervised learning, and reinforcement learning. In
+              supervised learning, algorithms learn from labeled data to make
+              predictions or classifications. Unsupervised learning involves
+              finding patterns and structures in unlabeled data. Reinforcement
+              learning focuses on learning optimal actions through trial and
+              error in a dynamic environment. Machine learning has diverse
+              applications across various domains, including healthcare,
+              finance, marketing, and robotics, and continues to drive
+              innovation and advancements in technology.
+            </p>
+            <h3>Major Features of Machine Learning</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Learning from Data.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Supervised Learning.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Unsupervised Learning.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Reinforcement Learning.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Model Evaluation and
+                Validation:.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Feature Engineering.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Model Selection and
+                Tuning.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Scalability and
+                Efficiency.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OBJECTIVES</h1>
+
+      <ul style="list-style-type: square">
+        <li>
+          To study the various supervised and unsupervised learning algorithms
+          in machine learning
+        </li>
+        <li>To understand the latest trends in machine learning</li>
+        <li>
+          To design appropriate machine learning algorithms for problem solving
+        </li>
+      </ul>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+
+      <ul style="list-style-type: square">
+        <li>Understand the Concepts of Machine Learning (L2)</li>
+        <li>Develop Simple Regression Models .(L3)</li>
+        <li>Build various classification algorithms (L3)</li>
+        <li>
+          Analyze the need of ensemble learning and dimension reduction (L4)
+        </li>
+        <li>
+          Apply the Clustering algorithms for developing applications (L3)
+        </li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+        Introduction to Machine Learning What is Machine Learning,Types of
+        Machine Learning, Applications of Machine learning, Preparing to Model,
+        Modeling and Evaluation .
+
+        <h3>UNIT-II</h3>
+        Supervised Learning: Regression Introduction to Regression,Example of
+        Regression,Simple Linear Regression,Multiple Linear
+        Regression,Assumptions in Regression Analysis,Improving the accuracy of
+        the Linear Regression Model, Ridge Regression, Lasso Regression.
+        <h3>UNIT-III</h3>
+        Supervised Learning: Classification What is Classification,General
+        Approach to Classification, K-Nearest Neighbor Algorithm, Logistic
+        Regression, Decision Trees: Construction, classification and regression
+        trees, example, Naive Bayesian Classifier, Support Vector Machines:
+        Optimal Separation, Kernels, Algorithm
+
+        <h3>UNIT-IV</h3>
+        Unsupervised Learning and Dimensionality Reduction Types of Unsupervised
+        Learning, Challenges in Unsupervised Learning, Clustering Algorithms:
+        K-Means, Agglomerative, DBSCAN, Comparing and Evaluating Clustering
+        Algorithms.Dimensionality Reduction: Linear Discriminant Analysis (LDA),
+        Principal Component Analysis (PCA), Factor Analysis (FA).
+        <h3>UNIT-V</h3>
+        Ensemble Learning and Reinforcement Learning Ensemble Methods: Bagging,
+        Boosting & Random Forests, Reinforcement Learning: Overview, Example:
+        Getting Lost, Markov Decision Process, Values, difference between SARSA
+        and Q Learning, Uses of Reinforcement Learning
+        <h3>Text Books</h3>
+        1. Machine Learning, Saikat Dutt, Subramanian Chandramouli and Amit
+        Kumar Das, Pearson, 2018. <br />
+        2. Machine Learning: An Algorithmic Perspective by Stephen Marsland, CRC
+        Press, <br />
+        3. Introduction to Machine Learning with Python by Andreas C. Müller,
+        Sarah Guido, 2016,O'Reilly Media, Inc.<br />
+        <h3>Suggested / Reference Books</h3>
+        1. Introduction to Machine Learning (Adaptive Computation and Machine
+        Learning), Ethem Alpaydin, The MIT Press 2004.<br />
+        2. Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow,
+        2nd Edition Aurélien Géron, 2019, O'Reilly Media, Inc.<br />
+        3. Machine Learning, McGraw-Hill Education (India) Private Limited,Tom
+        M. Mitchell, 2013.<br />
+        4. Pattern Recognition and Machine Learning. First Edition. ,C. M.
+        Bishop. Springer, 2006<br />
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

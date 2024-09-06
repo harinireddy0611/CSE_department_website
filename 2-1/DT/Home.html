@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Home.css" />
+    <link
+      rel="icon"
+      href="https://anurag.edu.in/wp-content/uploads/2023/02/cropped-image.png"
+      type="image/x-icon"
+    />
+    <title>Dept of CSE</title>
+  </head>
+  <body>
+    <script>
+      function toggleNavbar() {
+        var navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+      window.addEventListener("scroll", function () {
+        var navbar = document.getElementById("navbar");
+        if (window.scrollY > 10) {
+          navbar.classList.add("bg-color");
+        } else {
+          navbar.classList.remove("bg-color");
+        }
+      });
+    </script>
+
+    <div class="head">
+      <div class="navbar">
+        <h2 class="logo me-auto">
+          <a href="Home.html"><b>DESIGN THINKING</b></a>
+        </h2>
+        <div onclick="toggleNavbar()" class="icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="close-btn" onclick="toggleNavbar()">✕</div>
+        <ul class="nav">
+          <li><a href="../../index.html">Home</a></li>
+          <li><a class="active" href="UNIT 1.html">UNIT - 1</a></li>
+          <li><a href="UNIT 2.html">UNIT - 2</a></li>
+          <li><a href="UNIT 3.html">UNIT - 3</a></li>
+          <li><a href="UNIT 4.html">UNIT - 4</a></li>
+          <li><a href="UNIT 5.html">UNIT - 5</a></li>
+          <li><a href="">PBL</a></li>
+          <li><a href="">Lecture Plan</a></li>
+          <!-- <li><a href="pbl.html">PBL</a></li> -->
+        </ul>
+      </div>
+      <h1>DESIGN THINKING</h1>
+    </div>
+    <div class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>DESIGN THINKING</h3>
+            <p class="fst-italic">
+              Design thinking is a problem-solving methodology that prioritizes
+              human-centric solutions through a creative and iterative process.
+              It involves empathizing with users to understand their needs,
+              defining the problem, ideating potential solutions, prototyping
+              and testing those solutions, and finally implementing the most
+              effective ones. This approach encourages collaboration,
+              experimentation, and a willingness to embrace failure as part of
+              the learning process. Design thinking is not limited to designers;
+              it's a mindset that can be applied across various industries and
+              disciplines to innovate and address complex challenges
+              effectively. By focusing on empathy, creativity, and user-centered
+              solutions, design thinking enables organizations to develop
+              products, services, and experiences that truly resonate with their
+              target audience.
+            </p>
+            <h3>Major Features of Design Thinking</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Human-Centric Approach.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Iterative Process.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Creative Ideation.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Prototype-driven
+                Development.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Collaborative and
+                Multidisciplinary Teams.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Bias Towards Action.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Focus on User
+                Experience (UX).
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check"></i> Iterative Feedback
+                Loop.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
+            <img
+              style="border-radius: 15px"
+              src="https://anuragweb.club/javacourse/assets/img/12.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="courseoutcomes">
+      <h1 class="he1">COURSE OUTCOMES</h1>
+      <ul style="list-style-type: square">
+        <li>Understand the Object Oriented Programming concepts(L2).</li>
+        <li>Design programs using package and interfaces(L6).</li>
+        <li>Apply the concepts of Exceptions and multithreading(L3).</li>
+        <li>Develop GUI applications and AWT using Frames (L6).</li>
+        <li>Design the programs using Applet and JDBC Concepts(L6).</li>
+      </ul>
+    </div>
+
+    <div class="syllabus">
+      <h1 class="he1">SYLLABUS</h1>
+      <div class="syll">
+        <h3>UNIT-I</h3>
+
+        <h3>UNIT-II</h3>
+
+        <h3>UNIT-III</h3>
+
+        <h3>UNIT-IV</h3>
+
+        <h3>UNIT-V</h3>
+
+        <h3>Text Books</h3>
+
+        <h3>Suggested / Reference Books</h3>
+        1..<br />
+        2. <br />
+        3.
+      </div>
+    </div>
+
+    <div class="footer">Designed by</div>
+
+    <script
+      src="https://kit.fontawesome.com/acbd9f1f58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
